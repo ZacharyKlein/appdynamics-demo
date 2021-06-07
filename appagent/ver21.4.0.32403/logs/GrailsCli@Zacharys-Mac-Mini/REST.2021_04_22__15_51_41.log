@@ -1,0 +1,1498 @@
+[AD Thread-Metric Reporter0] 22 Apr 2021 15:57:52,095  INFO MetricSender - Sending REST request - URL [/controller/instance/192032/metricregistration]
+<request>
+<node-id>152597</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average Time to Create ClassMetaData (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|RSD Trim Microseconds"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Number of Major Collections Per Min"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Background Transformations"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Promoted-Objects (MB)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|Analytics|Messages Dropped Since Size Exceeded"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Analytics|Sink Writers Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Methods Transformed"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Transformation Timeouts"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|Metric Reporting"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Class File Reads for MetaData"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Threads|Current No. of Threads"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Average End to End Latency (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|RSD Trim Count"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Major Collection Time Spent Per Min (ms)"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average Class File Read time(ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Number of Slow End to End Messages"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Freed-Objects (MB)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Stall Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average Non-Transform Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Analytics|Pending Messages In Queue"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|ClassMetaData Purge Operations"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average Transform Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|ClassMetaData Objects created"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average ClassMetaData Purge Operation Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|Analytics|Messages Dropped Since Input Queue Full"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Validation Failures"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Non-Heap|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Analytics|Message Latency (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Analytics|Collector Objects Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Non-Heap|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|GC Time Spent Per Min (ms)"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Process CPU Usage %"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|Analytics|Message Send Errors"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Number of Minor Collections Per Min"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Number of Very Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Non-Heap|Used %"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|RSD Total Count"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Infrastructure Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Allocated-Objects (MB)"	time-rollup-type="AVERAGE"	hole-fill-type="NO_ZEROFILL_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|LiveData (MB)"	time-rollup-type="AVERAGE"	hole-fill-type="NO_ZEROFILL_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average Background Transform Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Process CPU Burnt (ms/min)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Minor Collection Time Spent Per Min (ms)"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Classes ReTransformed"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|Agent Registration"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Abandoned BCI operations"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Classes|Current Loaded Class Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Normal Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Non-Heap|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|BT Registration"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Bootstrap class refreshes"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|App Config Poll"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Bootstrap class loads"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Classes|Total Classes Loaded"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Class Loads"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Bootstrap class load misses"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|Metric Registration"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Failed ReTransform Requests"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|Analytics|Messages Sent"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|End to End Messages per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Used %"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Number of Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Classes Transformed"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Bootstrap class lookups"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 22 Apr 2021 15:57:52,219  INFO MetricSender - REST Response Received - URL [/controller/instance/192032/metricregistration]
+<request>
+<metric	name="BTM|Application Summary|End to End Messages per Minute"	id="9975129"/>
+<metric	name="Agent|Agent Channels|RSD Trim Microseconds"	id="9975095"/>
+<metric	name="Agent|Analytics|Sink Writers Count"	id="9975103"/>
+<metric	name="JVM|Garbage Collection|Major Collection Time Spent Per Min (ms)"	id="9975021"/>
+<metric	name="JVM|Memory:Heap|Committed (MB)"	id="9975022"/>
+<metric	name="Agent|Agent Channels|BT Registration"	id="9975090"/>
+<metric	name="Agent|BCI|Average Class File Read time(ms)"	id="9975106"/>
+<metric	name="Agent|Analytics|Messages Dropped Since Size Exceeded"	id="9975100"/>
+<metric	name="BTM|Application Summary|Stall Count"	id="9975136"/>
+<metric	name="Agent|BCI|Bootstrap class loads"	id="9975113"/>
+<metric	name="BTM|Application Summary|Average Response Time (ms)"	id="9975127"/>
+<metric	name="Agent|BCI|Validation Failures"	id="9975125"/>
+<metric	name="Agent|BCI|Average Background Transform Time (ms)"	id="9975105"/>
+<metric	name="Agent|BCI|Abandoned BCI operations"	id="9975104"/>
+<metric	name="JVM|Garbage Collection|Number of Major Collections Per Min"	id="9975034"/>
+<metric	name="Agent|BCI|Average Transform Time (ms)"	id="9975110"/>
+<metric	name="Agent|Agent Channels|RSD Total Count"	id="9975093"/>
+<metric	name="Agent|Agent Channels|Agent Registration"	id="9975088"/>
+<metric	name="JVM|Garbage Collection|GC Time Spent Per Min (ms)"	id="9975041"/>
+<metric	name="JVM|Classes|Total Classes Loaded"	id="9975039"/>
+<metric	name="BTM|Application Summary|Errors per Minute"	id="9975130"/>
+<metric	name="Agent|Analytics|Messages Sent"	id="9975101"/>
+<metric	name="Agent|BCI|Average Time to Create ClassMetaData (ms)"	id="9975109"/>
+<metric	name="Agent|Agent Channels|Metric Reporting"	id="9975092"/>
+<metric	name="BTM|Application Summary|Number of Slow Calls"	id="9975133"/>
+<metric	name="Agent|BCI|ClassMetaData Objects created"	id="9975118"/>
+<metric	name="JVM|Memory:Non-Heap|Committed (MB)"	id="9975024"/>
+<metric	name="Agent|BCI|Class Loads"	id="9975117"/>
+<metric	name="JVM|Garbage Collection|Allocated-Objects (MB)"	id="9975029"/>
+<metric	name="BTM|Application Summary|Normal Average Response Time (ms)"	id="9975132"/>
+<metric	name="Agent|Analytics|Collector Objects Count"	id="9975096"/>
+<metric	name="JVM|Process CPU Burnt (ms/min)"	id="9975031"/>
+<metric	name="JVM|Memory:Heap|Used %"	id="9975032"/>
+<metric	name="Agent|Analytics|Message Latency (ms)"	id="9975097"/>
+<metric	name="Agent|BCI|Bootstrap class refreshes"	id="9975115"/>
+<metric	name="Agent|BCI|Class File Reads for MetaData"	id="9975116"/>
+<metric	name="JVM|Memory:Heap|Max Available (MB)"	id="9975036"/>
+<metric	name="Agent|BCI|Methods Transformed"	id="9975123"/>
+<metric	name="Agent|Analytics|Message Send Errors"	id="9975098"/>
+<metric	name="JVM|Threads|Current No. of Threads"	id="9975042"/>
+<metric	name="BTM|Application Summary|Infrastructure Errors per Minute"	id="9975131"/>
+<metric	name="Agent|BCI|Bootstrap class load misses"	id="9975112"/>
+<metric	name="Agent|BCI|Average Non-Transform Time (ms)"	id="9975108"/>
+<metric	name="JVM|Memory:Non-Heap|Current Usage (MB)"	id="9975023"/>
+<metric	name="Agent|Agent Channels|Metric Registration"	id="9975091"/>
+<metric	name="JVM|Garbage Collection|Freed-Objects (MB)"	id="9975026"/>
+<metric	name="Agent|BCI|Failed ReTransform Requests"	id="9975122"/>
+<metric	name="JVM|Garbage Collection|Minor Collection Time Spent Per Min (ms)"	id="9975028"/>
+<metric	name="Agent|Agent Channels|RSD Trim Count"	id="9975094"/>
+<metric	name="BTM|Application Summary|Calls per Minute"	id="9975128"/>
+<metric	name="JVM|Classes|Current Loaded Class Count"	id="9975033"/>
+<metric	name="JVM|Garbage Collection|Number of Minor Collections Per Min"	id="9975035"/>
+<metric	name="Agent|Agent Channels|App Config Poll"	id="9975089"/>
+<metric	name="BTM|Application Summary|Number of Very Slow Calls"	id="9975135"/>
+<metric	name="JVM|Garbage Collection|Promoted-Objects (MB)"	id="9975020"/>
+<metric	name="Agent|BCI|Transformation Timeouts"	id="9975124"/>
+<metric	name="Agent|Analytics|Messages Dropped Since Input Queue Full"	id="9975099"/>
+<metric	name="Agent|Analytics|Pending Messages In Queue"	id="9975102"/>
+<metric	name="BTM|Application Summary|Average End to End Latency (ms)"	id="9975126"/>
+<metric	name="Agent|BCI|ClassMetaData Purge Operations"	id="9975119"/>
+<metric	name="JVM|Garbage Collection|LiveData (MB)"	id="9975025"/>
+<metric	name="BTM|Application Summary|Number of Slow End to End Messages"	id="9975134"/>
+<metric	name="JVM|Process CPU Usage %"	id="9975030"/>
+<metric	name="Agent|BCI|Classes ReTransformed"	id="9975120"/>
+<metric	name="Agent|BCI|Classes Transformed"	id="9975121"/>
+<metric	name="Agent|BCI|Average ClassMetaData Purge Operation Time (ms)"	id="9975107"/>
+<metric	name="Agent|BCI|Bootstrap class lookups"	id="9975114"/>
+<metric	name="JVM|Memory:Heap|Current Usage (MB)"	id="9975037"/>
+<metric	name="JVM|Memory:Non-Heap|Max Available (MB)"	id="9975038"/>
+<metric	name="JVM|Memory:Non-Heap|Used %"	id="9975040"/>
+<metric	name="Agent|BCI|Background Transformations"	id="9975111"/>
+</request>
+
+[AD Thread Pool-Global0] 22 Apr 2021 15:58:52,615  INFO ObjectRegistry - REST - Sending Binary request - URL [/controller/instance/192032/btregistration] 
+********BT Registration Data********
+<node-id>
+152597
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 40
+<ApplicationDiagnosticData{key='org.gradle.internal.dispatch.MethodInvocation', name=org.gradle.internal.dispatch.MethodInvocation, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.gradle.internal.dispatch.MethodInvocation'}>
+<ApplicationDiagnosticData{key='java.util.jar.JarFile$1', name=java.util.jar.JarFile$1, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.util.jar.JarFile$1'}>
+<ApplicationDiagnosticData{key='java.util.HashMap$KeyIterator', name=java.util.HashMap$KeyIterator, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.util.HashMap$KeyIterator'}>
+<ApplicationDiagnosticData{key='java.lang.Object[]', name=java.lang.Object[], diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.lang.Object[]'}>
+<ApplicationDiagnosticData{key='long[]', name=long[], diagnosticType=TRACKED_OBJECT, configEntities=null, summary='long[]'}>
+<ApplicationDiagnosticData{key='org.gradle.launcher.daemon.protocol.OutputMessage', name=org.gradle.launcher.daemon.protocol.OutputMessage, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.gradle.launcher.daemon.protocol.OutputMessage'}>
+<ApplicationDiagnosticData{key='java.util.HashMap', name=java.util.HashMap, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.util.HashMap'}>
+<ApplicationDiagnosticData{key='org.gradle.internal.operations.OperationIdentifier', name=org.gradle.internal.operations.OperationIdentifier, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.gradle.internal.operations.OperationIdentifier'}>
+<ApplicationDiagnosticData{key='java.lang.String[]', name=java.lang.String[], diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.lang.String[]'}>
+<ApplicationDiagnosticData{key='org.codehaus.groovy.util.FastArray', name=org.codehaus.groovy.util.FastArray, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.codehaus.groovy.util.FastArray'}>
+<ApplicationDiagnosticData{key='java.util.ArrayList', name=java.util.ArrayList, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.util.ArrayList'}>
+<ApplicationDiagnosticData{key='org.gradle.internal.logging.events.StyledTextOutputEvent$Span', name=org.gradle.internal.logging.events.StyledTextOutputEvent$Span, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.gradle.internal.logging.events.StyledTextOutputEvent$Span'}>
+<ApplicationDiagnosticData{key='org.codehaus.groovy.ast.MethodNode', name=org.codehaus.groovy.ast.MethodNode, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.codehaus.groovy.ast.MethodNode'}>
+<ApplicationDiagnosticData{key='org.apache.logging.log4j.core.time.MutableInstant', name=org.apache.logging.log4j.core.time.MutableInstant, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.apache.logging.log4j.core.time.MutableInstant'}>
+<ApplicationDiagnosticData{key='java.util.jar.JarFile$JarFileEntry', name=java.util.jar.JarFile$JarFileEntry, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.util.jar.JarFile$JarFileEntry'}>
+<ApplicationDiagnosticData{key='java.lang.String', name=java.lang.String, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.lang.String'}>
+<ApplicationDiagnosticData{key='org.gradle.internal.logging.text.StyledTextOutput$Style[]', name=org.gradle.internal.logging.text.StyledTextOutput$Style[], diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.gradle.internal.logging.text.StyledTextOutput$Style[]'}>
+<ApplicationDiagnosticData{key='org.gradle.api.logging.LogLevel[]', name=org.gradle.api.logging.LogLevel[], diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.gradle.api.logging.LogLevel[]'}>
+<ApplicationDiagnosticData{key='java.lang.ref.WeakReference', name=java.lang.ref.WeakReference, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.lang.ref.WeakReference'}>
+<ApplicationDiagnosticData{key='org.apache.logging.log4j.core.impl.Log4jLogEvent', name=org.apache.logging.log4j.core.impl.Log4jLogEvent, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.apache.logging.log4j.core.impl.Log4jLogEvent'}>
+<ApplicationDiagnosticData{key='java.util.ArrayList$Itr', name=java.util.ArrayList$Itr, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.util.ArrayList$Itr'}>
+<ApplicationDiagnosticData{key='java.util.zip.ZipEntry', name=java.util.zip.ZipEntry, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.util.zip.ZipEntry'}>
+<ApplicationDiagnosticData{key='java.lang.reflect.Method', name=java.lang.reflect.Method, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.lang.reflect.Method'}>
+<ApplicationDiagnosticData{key='org.gradle.internal.logging.text.AbstractLineChoppingStyledTextOutput$StateContext', name=org.gradle.internal.logging.text.AbstractLineChoppingStyledTextOutput$StateContext, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.gradle.internal.logging.text.AbstractLineChoppingStyledTextOutput$StateContext'}>
+<ApplicationDiagnosticData{key='org.gradle.internal.logging.events.StyledTextOutputEvent', name=org.gradle.internal.logging.events.StyledTextOutputEvent, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.gradle.internal.logging.events.StyledTextOutputEvent'}>
+<ApplicationDiagnosticData{key='org.apache.logging.log4j.util.SortedArrayStringMap', name=org.apache.logging.log4j.util.SortedArrayStringMap, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.apache.logging.log4j.util.SortedArrayStringMap'}>
+<ApplicationDiagnosticData{key='org.apache.logging.log4j.core.async.AsyncLoggerConfigDisruptor$Log4jEventWrapper', name=org.apache.logging.log4j.core.async.AsyncLoggerConfigDisruptor$Log4jEventWrapper, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.apache.logging.log4j.core.async.AsyncLoggerConfigDisruptor$Log4jEventWrapper'}>
+<ApplicationDiagnosticData{key='org.codehaus.groovy.ast.Parameter', name=org.codehaus.groovy.ast.Parameter, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.codehaus.groovy.ast.Parameter'}>
+<ApplicationDiagnosticData{key='org.codehaus.groovy.util.ComplexKeyHashMap$Entry[]', name=org.codehaus.groovy.util.ComplexKeyHashMap$Entry[], diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.codehaus.groovy.util.ComplexKeyHashMap$Entry[]'}>
+<ApplicationDiagnosticData{key='org.codehaus.groovy.ast.ClassNode', name=org.codehaus.groovy.ast.ClassNode, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.codehaus.groovy.ast.ClassNode'}>
+<ApplicationDiagnosticData{key='int[]', name=int[], diagnosticType=TRACKED_OBJECT, configEntities=null, summary='int[]'}>
+<ApplicationDiagnosticData{key='org.codehaus.groovy.util.SingleKeyHashMap$Entry', name=org.codehaus.groovy.util.SingleKeyHashMap$Entry, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.codehaus.groovy.util.SingleKeyHashMap$Entry'}>
+<ApplicationDiagnosticData{key='org.codehaus.groovy.runtime.metaclass.MetaMethodIndex$Entry', name=org.codehaus.groovy.runtime.metaclass.MetaMethodIndex$Entry, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.codehaus.groovy.runtime.metaclass.MetaMethodIndex$Entry'}>
+<ApplicationDiagnosticData{key='char[]', name=char[], diagnosticType=TRACKED_OBJECT, configEntities=null, summary='char[]'}>
+<ApplicationDiagnosticData{key='org.codehaus.groovy.reflection.CachedMethod', name=org.codehaus.groovy.reflection.CachedMethod, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.codehaus.groovy.reflection.CachedMethod'}>
+<ApplicationDiagnosticData{key='java.util.LinkedHashMap$Entry', name=java.util.LinkedHashMap$Entry, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.util.LinkedHashMap$Entry'}>
+<ApplicationDiagnosticData{key='java.nio.HeapCharBuffer', name=java.nio.HeapCharBuffer, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.nio.HeapCharBuffer'}>
+<ApplicationDiagnosticData{key='java.util.HashMap$Node[]', name=java.util.HashMap$Node[], diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.util.HashMap$Node[]'}>
+<ApplicationDiagnosticData{key='java.lang.StringBuilder', name=java.lang.StringBuilder, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.lang.StringBuilder'}>
+<ApplicationDiagnosticData{key='java.util.HashMap$Node', name=java.util.HashMap$Node, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.util.HashMap$Node'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 22 Apr 2021 15:58:52,619  INFO ObjectRegistry - REST
+Sending Binary payload Size : 6642 bytes
+[AD Thread Pool-Global0] 22 Apr 2021 15:58:54,190  INFO ObjectRegistry - REST - Reading Binary response - URL [null] - Size [2991]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<TRACKED_OBJECT>::<{org.gradle.internal.dispatch.MethodInvocation=134899, java.util.jar.JarFile$1=134900, java.util.HashMap$KeyIterator=134901, java.lang.Object[]=134902, long[]=134903, org.gradle.launcher.daemon.protocol.OutputMessage=134904, java.util.HashMap=134905, org.gradle.internal.operations.OperationIdentifier=134906, java.lang.String[]=134907, org.codehaus.groovy.util.FastArray=134908, java.util.ArrayList=134909, org.gradle.internal.logging.events.StyledTextOutputEvent$Span=134910, org.codehaus.groovy.ast.MethodNode=134911, org.apache.logging.log4j.core.time.MutableInstant=134912, java.util.jar.JarFile$JarFileEntry=134913, java.lang.String=134914, org.gradle.internal.logging.text.StyledTextOutput$Style[]=134915, org.gradle.api.logging.LogLevel[]=134916, java.lang.ref.WeakReference=134917, org.apache.logging.log4j.core.impl.Log4jLogEvent=134918, java.util.ArrayList$Itr=134919, java.util.zip.ZipEntry=134920, java.lang.reflect.Method=134921, org.gradle.internal.logging.text.AbstractLineChoppingStyledTextOutput$StateContext=134922, org.gradle.internal.logging.events.StyledTextOutputEvent=134923, org.apache.logging.log4j.util.SortedArrayStringMap=134924, org.apache.logging.log4j.core.async.AsyncLoggerConfigDisruptor$Log4jEventWrapper=134925, org.codehaus.groovy.ast.Parameter=134926, org.codehaus.groovy.util.ComplexKeyHashMap$Entry[]=134927, org.codehaus.groovy.ast.ClassNode=134928, int[]=134929, org.codehaus.groovy.util.SingleKeyHashMap$Entry=134930, org.codehaus.groovy.runtime.metaclass.MetaMethodIndex$Entry=134931, char[]=134932, org.codehaus.groovy.reflection.CachedMethod=134933, java.util.LinkedHashMap$Entry=134934, java.nio.HeapCharBuffer=134935, java.util.HashMap$Node[]=134936, java.lang.StringBuilder=134937, java.util.HashMap$Node=134938}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter1] 22 Apr 2021 15:59:02,098  INFO MetricSender - Sending REST request - URL [/controller/instance/192032/metricregistration]
+<request>
+<node-id>152597</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134904|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134899|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Old Gen|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134938|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134936|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134903|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134908|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-nmethods&apos;|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134928|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134918|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134912|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134910|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134932|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134931|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134934|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134905|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134929|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134924|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Eden Space|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-nmethods&apos;|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134917|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134929|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134911|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134925|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Survivor Space|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134910|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134921|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134916|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134923|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134924|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134905|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134908|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-nmethods&apos;|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134904|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134900|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134927|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134933|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Metaspace|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-profiled nmethods&apos;|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134935|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134902|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Old Gen|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134926|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134901|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134906|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134909|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134932|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134933|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134903|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134913|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134934|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134915|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134927|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134912|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134935|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134922|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Metaspace|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134920|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134921|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134911|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134930|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134922|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134917|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134925|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134928|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134907|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134914|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Survivor Space|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-profiled nmethods&apos;|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134902|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134926|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134907|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134913|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134919|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134923|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134900|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Eden Space|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134918|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134920|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Old Gen|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134916|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134936|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134938|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134899|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134931|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134930|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134937|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134915|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134937|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-profiled nmethods&apos;|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134914|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134919|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134906|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134909|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134901|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 22 Apr 2021 15:59:02,881  INFO MetricSender - REST Response Received - URL [/controller/instance/192032/metricregistration]
+<request>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134911|Instance Count"	id="9975281"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134934|Shallow Size"	id="9975328"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134930|Shallow Size"	id="9975320"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Eden Space|Current Usage (MB)"	id="9975187"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134915|Shallow Size"	id="9975290"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-profiled nmethods&apos;|Max Available (MB)"	id="9975182"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Metaspace|Current Usage (MB)"	id="9975194"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134911|Shallow Size"	id="9975282"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134909|Instance Count"	id="9975277"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134926|Shallow Size"	id="9975312"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134927|Shallow Size"	id="9975314"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134927|Instance Count"	id="9975313"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134922|Shallow Size"	id="9975304"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134923|Shallow Size"	id="9975306"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Eden Space|Committed (MB)"	id="9975186"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-profiled nmethods&apos;|Committed (MB)"	id="9975180"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134914|Instance Count"	id="9975287"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134920|Instance Count"	id="9975299"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134938|Shallow Size"	id="9975336"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Max Available (MB)"	id="9975185"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134902|Instance Count"	id="9975263"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134932|Instance Count"	id="9975323"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134915|Instance Count"	id="9975289"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134929|Instance Count"	id="9975317"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134924|Instance Count"	id="9975307"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134903|Instance Count"	id="9975265"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Survivor Space|Current Usage (MB)"	id="9975192"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134933|Instance Count"	id="9975325"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Survivor Space|Committed (MB)"	id="9975191"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134926|Instance Count"	id="9975311"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134900|Instance Count"	id="9975259"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134930|Instance Count"	id="9975319"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134922|Instance Count"	id="9975303"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134905|Instance Count"	id="9975269"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134935|Instance Count"	id="9975329"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134907|Shallow Size"	id="9975274"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134918|Instance Count"	id="9975295"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134905|Shallow Size"	id="9975270"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134901|Shallow Size"	id="9975262"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-nmethods&apos;|Committed (MB)"	id="9975177"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-nmethods&apos;|Max Available (MB)"	id="9975179"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134903|Shallow Size"	id="9975266"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134919|Shallow Size"	id="9975298"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134917|Shallow Size"	id="9975294"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134937|Instance Count"	id="9975333"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134907|Instance Count"	id="9975273"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Old Gen|Max Available (MB)"	id="9975190"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134913|Shallow Size"	id="9975286"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134916|Instance Count"	id="9975291"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134932|Shallow Size"	id="9975324"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134904|Instance Count"	id="9975267"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134925|Instance Count"	id="9975309"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134899|Instance Count"	id="9975257"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134934|Instance Count"	id="9975327"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134909|Shallow Size"	id="9975278"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134929|Shallow Size"	id="9975318"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134913|Instance Count"	id="9975285"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134925|Shallow Size"	id="9975310"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134924|Shallow Size"	id="9975308"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Metaspace|Committed (MB)"	id="9975193"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134921|Shallow Size"	id="9975302"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Committed (MB)"	id="9975183"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134901|Instance Count"	id="9975261"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Old Gen|Committed (MB)"	id="9975188"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-profiled nmethods&apos;|Current Usage (MB)"	id="9975181"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134920|Shallow Size"	id="9975300"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134936|Shallow Size"	id="9975332"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134928|Instance Count"	id="9975315"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-nmethods&apos;|Current Usage (MB)"	id="9975178"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134937|Shallow Size"	id="9975334"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134931|Shallow Size"	id="9975322"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134933|Shallow Size"	id="9975326"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134918|Shallow Size"	id="9975296"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134935|Shallow Size"	id="9975330"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134916|Shallow Size"	id="9975292"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134908|Instance Count"	id="9975275"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134914|Shallow Size"	id="9975288"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134912|Instance Count"	id="9975283"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134917|Instance Count"	id="9975293"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134931|Instance Count"	id="9975321"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134912|Shallow Size"	id="9975284"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134938|Instance Count"	id="9975335"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134908|Shallow Size"	id="9975276"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134921|Instance Count"	id="9975301"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134910|Shallow Size"	id="9975280"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134928|Shallow Size"	id="9975316"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134899|Shallow Size"	id="9975258"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Old Gen|Current Usage (MB)"	id="9975189"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134906|Shallow Size"	id="9975272"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134902|Shallow Size"	id="9975264"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134936|Instance Count"	id="9975331"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134923|Instance Count"	id="9975305"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134904|Shallow Size"	id="9975268"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134910|Instance Count"	id="9975279"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134906|Instance Count"	id="9975271"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Current Usage (MB)"	id="9975184"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134919|Instance Count"	id="9975297"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134900|Shallow Size"	id="9975260"/>
+</request>
+
+[AD Thread Pool-Global1] 22 Apr 2021 16:00:52,618  INFO ObjectRegistry - REST - Sending Binary request - URL [/controller/instance/192032/btregistration] 
+********BT Registration Data********
+<node-id>
+152597
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 18
+<ApplicationDiagnosticData{key='java.util.Hashtable$Entry', name=java.util.Hashtable$Entry, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.util.Hashtable$Entry'}>
+<ApplicationDiagnosticData{key='org.codehaus.groovy.ast.VariableScope', name=org.codehaus.groovy.ast.VariableScope, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.codehaus.groovy.ast.VariableScope'}>
+<ApplicationDiagnosticData{key='java.util.concurrent.ConcurrentHashMap$Node', name=java.util.concurrent.ConcurrentHashMap$Node, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.util.concurrent.ConcurrentHashMap$Node'}>
+<ApplicationDiagnosticData{key='groovyjarjarasm.asm.SymbolTable$Entry', name=groovyjarjarasm.asm.SymbolTable$Entry, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='groovyjarjarasm.asm.SymbolTable$Entry'}>
+<ApplicationDiagnosticData{key='org.codehaus.groovy.ast.expr.ConstantExpression', name=org.codehaus.groovy.ast.expr.ConstantExpression, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.codehaus.groovy.ast.expr.ConstantExpression'}>
+<ApplicationDiagnosticData{key='org.apache.tools.ant.AntTypeDefinition', name=org.apache.tools.ant.AntTypeDefinition, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.apache.tools.ant.AntTypeDefinition'}>
+<ApplicationDiagnosticData{key='java.util.LinkedHashMap', name=java.util.LinkedHashMap, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.util.LinkedHashMap'}>
+<ApplicationDiagnosticData{key='groovy.lang.MetaBeanProperty', name=groovy.lang.MetaBeanProperty, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='groovy.lang.MetaBeanProperty'}>
+<ApplicationDiagnosticData{key='java.lang.Class[]', name=java.lang.Class[], diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.lang.Class[]'}>
+<ApplicationDiagnosticData{key='java.lang.ref.SoftReference', name=java.lang.ref.SoftReference, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.lang.ref.SoftReference'}>
+<ApplicationDiagnosticData{key='org.codehaus.groovy.runtime.metaclass.MetaMethodIndex$Entry[]', name=org.codehaus.groovy.runtime.metaclass.MetaMethodIndex$Entry[], diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.codehaus.groovy.runtime.metaclass.MetaMethodIndex$Entry[]'}>
+<ApplicationDiagnosticData{key='org.codehaus.groovy.util.ReferenceType$SoftRef', name=org.codehaus.groovy.util.ReferenceType$SoftRef, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.codehaus.groovy.util.ReferenceType$SoftRef'}>
+<ApplicationDiagnosticData{key='org.codehaus.groovy.ast.stmt.ReturnStatement', name=org.codehaus.groovy.ast.stmt.ReturnStatement, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.codehaus.groovy.ast.stmt.ReturnStatement'}>
+<ApplicationDiagnosticData{key='org.codehaus.groovy.ast.decompiled.DecompiledClassNode', name=org.codehaus.groovy.ast.decompiled.DecompiledClassNode, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.codehaus.groovy.ast.decompiled.DecompiledClassNode'}>
+<ApplicationDiagnosticData{key='java.util.concurrent.ConcurrentHashMap$Node[]', name=java.util.concurrent.ConcurrentHashMap$Node[], diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.util.concurrent.ConcurrentHashMap$Node[]'}>
+<ApplicationDiagnosticData{key='java.lang.Class$ReflectionData', name=java.lang.Class$ReflectionData, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.lang.Class$ReflectionData'}>
+<ApplicationDiagnosticData{key='org.codehaus.groovy.ast.decompiled.Annotations$DecompiledAnnotationNode', name=org.codehaus.groovy.ast.decompiled.Annotations$DecompiledAnnotationNode, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.codehaus.groovy.ast.decompiled.Annotations$DecompiledAnnotationNode'}>
+<ApplicationDiagnosticData{key='java.lang.Class', name=java.lang.Class, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.lang.Class'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 22 Apr 2021 16:00:52,620  INFO ObjectRegistry - REST
+Sending Binary payload Size : 3817 bytes
+[AD Thread Pool-Global1] 22 Apr 2021 16:00:53,254  INFO ObjectRegistry - REST - Reading Binary response - URL [null] - Size [1904]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<TRACKED_OBJECT>::<{java.util.Hashtable$Entry=134939, org.codehaus.groovy.ast.VariableScope=134940, java.util.concurrent.ConcurrentHashMap$Node=134941, org.codehaus.groovy.runtime.metaclass.MetaMethodIndex$Entry[]=134949, groovyjarjarasm.asm.SymbolTable$Entry=134942, org.codehaus.groovy.util.ReferenceType$SoftRef=134950, org.codehaus.groovy.ast.expr.ConstantExpression=134943, org.codehaus.groovy.ast.stmt.ReturnStatement=134951, org.codehaus.groovy.ast.decompiled.DecompiledClassNode=134952, org.apache.tools.ant.AntTypeDefinition=134944, java.util.LinkedHashMap=134945, java.util.concurrent.ConcurrentHashMap$Node[]=134953, groovy.lang.MetaBeanProperty=134946, java.lang.Class$ReflectionData=134954, java.lang.Class[]=134947, org.codehaus.groovy.ast.decompiled.Annotations$DecompiledAnnotationNode=134955, java.lang.Class=134956, java.lang.ref.SoftReference=134948}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter1] 22 Apr 2021 16:01:02,094  INFO MetricSender - Sending REST request - URL [/controller/instance/192032/metricregistration]
+<request>
+<node-id>152597</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134956|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134949|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134951|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134952|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134946|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134950|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134953|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134943|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134945|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134950|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134942|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134940|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134954|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134941|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134956|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134943|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134954|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134944|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134951|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134942|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134946|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134947|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134948|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134939|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134948|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134949|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134947|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134952|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134955|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134944|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134940|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134955|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134945|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134941|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134953|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134939|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 22 Apr 2021 16:01:02,413  INFO MetricSender - REST Response Received - URL [/controller/instance/192032/metricregistration]
+<request>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134954|Instance Count"	id="9975367"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134940|Instance Count"	id="9975339"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134946|Instance Count"	id="9975351"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134953|Instance Count"	id="9975365"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134951|Shallow Size"	id="9975362"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134950|Shallow Size"	id="9975360"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134949|Shallow Size"	id="9975358"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134955|Instance Count"	id="9975369"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134948|Shallow Size"	id="9975356"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134952|Instance Count"	id="9975363"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134944|Shallow Size"	id="9975348"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134939|Instance Count"	id="9975337"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134945|Shallow Size"	id="9975350"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134947|Instance Count"	id="9975353"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134947|Shallow Size"	id="9975354"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134946|Shallow Size"	id="9975352"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134943|Instance Count"	id="9975345"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134956|Instance Count"	id="9975371"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134948|Instance Count"	id="9975355"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134951|Instance Count"	id="9975361"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134943|Shallow Size"	id="9975346"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134942|Shallow Size"	id="9975344"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134940|Shallow Size"	id="9975340"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134942|Instance Count"	id="9975343"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134941|Shallow Size"	id="9975342"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134944|Instance Count"	id="9975347"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134955|Shallow Size"	id="9975370"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134954|Shallow Size"	id="9975368"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134949|Instance Count"	id="9975357"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134956|Shallow Size"	id="9975372"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134952|Shallow Size"	id="9975364"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134953|Shallow Size"	id="9975366"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134950|Instance Count"	id="9975359"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134939|Shallow Size"	id="9975338"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134941|Instance Count"	id="9975341"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134945|Instance Count"	id="9975349"/>
+</request>
+
+[AD Thread Pool-Global0] 22 Apr 2021 16:01:52,613  INFO ObjectRegistry - REST - Sending Binary request - URL [/controller/instance/192032/btregistration] 
+********BT Registration Data********
+<node-id>
+152597
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 2
+<ApplicationDiagnosticData{key='java.util.concurrent.locks.AbstractQueuedSynchronizer$Node', name=java.util.concurrent.locks.AbstractQueuedSynchronizer$Node, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.util.concurrent.locks.AbstractQueuedSynchronizer$Node'}>
+<ApplicationDiagnosticData{key='java.util.concurrent.CopyOnWriteArrayList$COWIterator', name=java.util.concurrent.CopyOnWriteArrayList$COWIterator, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.util.concurrent.CopyOnWriteArrayList$COWIterator'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 22 Apr 2021 16:01:52,615  INFO ObjectRegistry - REST
+Sending Binary payload Size : 1695 bytes
+[AD Thread Pool-Global0] 22 Apr 2021 16:01:52,760  INFO ObjectRegistry - REST - Reading Binary response - URL [null] - Size [1055]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<TRACKED_OBJECT>::<{java.util.concurrent.locks.AbstractQueuedSynchronizer$Node=134957, java.util.concurrent.CopyOnWriteArrayList$COWIterator=134958}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter0] 22 Apr 2021 16:02:02,097  INFO MetricSender - Sending REST request - URL [/controller/instance/192032/metricregistration]
+<request>
+<node-id>152597</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134958|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134957|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134958|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134957|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 22 Apr 2021 16:02:02,238  INFO MetricSender - REST Response Received - URL [/controller/instance/192032/metricregistration]
+<request>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134958|Shallow Size"	id="9975385"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134957|Shallow Size"	id="9975383"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134958|Instance Count"	id="9975384"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134957|Instance Count"	id="9975382"/>
+</request>
+
+[AD Thread Pool-Global1] 22 Apr 2021 16:08:52,621  INFO ObjectRegistry - REST - Sending Binary request - URL [/controller/instance/192032/btregistration] 
+********BT Registration Data********
+<node-id>
+152597
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='org.gradle.internal.logging.events.UpdateNowEvent', name=org.gradle.internal.logging.events.UpdateNowEvent, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.gradle.internal.logging.events.UpdateNowEvent'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 22 Apr 2021 16:08:52,623  INFO ObjectRegistry - REST
+Sending Binary payload Size : 1542 bytes
+[AD Thread Pool-Global1] 22 Apr 2021 16:08:52,761  INFO ObjectRegistry - REST - Reading Binary response - URL [null] - Size [976]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<TRACKED_OBJECT>::<{org.gradle.internal.logging.events.UpdateNowEvent=134960}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter1] 22 Apr 2021 16:09:02,092  INFO MetricSender - Sending REST request - URL [/controller/instance/192032/metricregistration]
+<request>
+<node-id>152597</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134960|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134960|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 22 Apr 2021 16:09:02,241  INFO MetricSender - REST Response Received - URL [/controller/instance/192032/metricregistration]
+<request>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134960|Shallow Size"	id="9975443"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134960|Instance Count"	id="9975442"/>
+</request>
+
+[AD Thread Pool-Global1] 22 Apr 2021 16:31:52,614  INFO ObjectRegistry - REST - Sending Binary request - URL [/controller/instance/192032/btregistration] 
+********BT Registration Data********
+<node-id>
+152597
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='java.util.LinkedHashMap$LinkedValueIterator', name=java.util.LinkedHashMap$LinkedValueIterator, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.util.LinkedHashMap$LinkedValueIterator'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 22 Apr 2021 16:31:52,617  INFO ObjectRegistry - REST
+Sending Binary payload Size : 1531 bytes
+[AD Thread Pool-Global1] 22 Apr 2021 16:31:52,739  INFO ObjectRegistry - REST - Reading Binary response - URL [null] - Size [970]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<TRACKED_OBJECT>::<{java.util.LinkedHashMap$LinkedValueIterator=134963}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter0] 22 Apr 2021 16:32:02,096  INFO MetricSender - Sending REST request - URL [/controller/instance/192032/metricregistration]
+<request>
+<node-id>152597</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134963|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134963|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 22 Apr 2021 16:32:02,243  INFO MetricSender - REST Response Received - URL [/controller/instance/192032/metricregistration]
+<request>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134963|Instance Count"	id="9980820"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134963|Shallow Size"	id="9980821"/>
+</request>
+
+[AD Thread Pool-Global1] 22 Apr 2021 16:42:52,619  INFO ObjectRegistry - REST - Sending Binary request - URL [/controller/instance/192032/btregistration] 
+********BT Registration Data********
+<node-id>
+152597
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='java.util.regex.Matcher', name=java.util.regex.Matcher, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.util.regex.Matcher'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 22 Apr 2021 16:42:52,623  INFO ObjectRegistry - REST
+Sending Binary payload Size : 1511 bytes
+[AD Thread Pool-Global1] 22 Apr 2021 16:42:52,820  INFO ObjectRegistry - REST - Reading Binary response - URL [null] - Size [950]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<TRACKED_OBJECT>::<{java.util.regex.Matcher=134964}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter1] 22 Apr 2021 16:43:02,097  INFO MetricSender - Sending REST request - URL [/controller/instance/192032/metricregistration]
+<request>
+<node-id>152597</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134964|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134964|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 22 Apr 2021 16:43:02,225  INFO MetricSender - REST Response Received - URL [/controller/instance/192032/metricregistration]
+<request>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134964|Instance Count"	id="9981051"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134964|Shallow Size"	id="9981052"/>
+</request>
+
+[AD Thread Pool-Global0] 22 Apr 2021 16:57:52,620  INFO ObjectRegistry - REST - Sending Binary request - URL [/controller/instance/192032/btregistration] 
+********BT Registration Data********
+<node-id>
+152597
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='java.util.Collections$UnmodifiableCollection$1', name=java.util.Collections$UnmodifiableCollection$1, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.util.Collections$UnmodifiableCollection$1'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 22 Apr 2021 16:57:52,623  INFO ObjectRegistry - REST
+Sending Binary payload Size : 1534 bytes
+[AD Thread Pool-Global0] 22 Apr 2021 16:57:52,799  INFO ObjectRegistry - REST - Reading Binary response - URL [null] - Size [973]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<TRACKED_OBJECT>::<{java.util.Collections$UnmodifiableCollection$1=134969}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter1] 22 Apr 2021 16:58:02,089  INFO MetricSender - Sending REST request - URL [/controller/instance/192032/metricregistration]
+<request>
+<node-id>152597</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134969|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134969|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 22 Apr 2021 16:58:02,233  INFO MetricSender - REST Response Received - URL [/controller/instance/192032/metricregistration]
+<request>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134969|Instance Count"	id="9981143"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134969|Shallow Size"	id="9981144"/>
+</request>
+
+[AD Thread Pool-Global1] 22 Apr 2021 17:27:52,613  INFO ObjectRegistry - REST - Sending Binary request - URL [/controller/instance/192032/btregistration] 
+********BT Registration Data********
+<node-id>
+152597
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='java.io.ObjectStreamClass$WeakClassKey', name=java.io.ObjectStreamClass$WeakClassKey, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.io.ObjectStreamClass$WeakClassKey'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 22 Apr 2021 17:27:52,615  INFO ObjectRegistry - REST
+Sending Binary payload Size : 1526 bytes
+[AD Thread Pool-Global1] 22 Apr 2021 17:27:52,732  INFO ObjectRegistry - REST - Reading Binary response - URL [null] - Size [965]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<TRACKED_OBJECT>::<{java.io.ObjectStreamClass$WeakClassKey=134975}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter1] 22 Apr 2021 17:28:02,092  INFO MetricSender - Sending REST request - URL [/controller/instance/192032/metricregistration]
+<request>
+<node-id>152597</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134975|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134975|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 22 Apr 2021 17:28:02,251  INFO MetricSender - REST Response Received - URL [/controller/instance/192032/metricregistration]
+<request>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134975|Instance Count"	id="9981306"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134975|Shallow Size"	id="9981307"/>
+</request>
+
+[AD Thread Pool-Global0] 22 Apr 2021 17:54:52,617  INFO ObjectRegistry - REST - Sending Binary request - URL [/controller/instance/192032/btregistration] 
+********BT Registration Data********
+<node-id>
+152597
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='java.lang.Long', name=java.lang.Long, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.lang.Long'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 22 Apr 2021 17:54:52,620  INFO ObjectRegistry - REST
+Sending Binary payload Size : 1502 bytes
+[AD Thread Pool-Global0] 22 Apr 2021 17:54:52,744  INFO ObjectRegistry - REST - Reading Binary response - URL [null] - Size [941]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<TRACKED_OBJECT>::<{java.lang.Long=134979}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter1] 22 Apr 2021 17:55:02,094  INFO MetricSender - Sending REST request - URL [/controller/instance/192032/metricregistration]
+<request>
+<node-id>152597</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134979|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134979|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 22 Apr 2021 17:55:02,224  INFO MetricSender - REST Response Received - URL [/controller/instance/192032/metricregistration]
+<request>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134979|Shallow Size"	id="9981388"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134979|Instance Count"	id="9981387"/>
+</request>
+
+[AD Thread Pool-Global0] 22 Apr 2021 18:21:52,615  INFO ObjectRegistry - REST - Sending Binary request - URL [/controller/instance/192032/btregistration] 
+********BT Registration Data********
+<node-id>
+152597
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='org.apache.http.util.CharArrayBuffer', name=org.apache.http.util.CharArrayBuffer, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.apache.http.util.CharArrayBuffer'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 22 Apr 2021 18:21:52,617  INFO ObjectRegistry - REST
+Sending Binary payload Size : 1529 bytes
+[AD Thread Pool-Global0] 22 Apr 2021 18:21:52,740  INFO ObjectRegistry - REST - Reading Binary response - URL [null] - Size [963]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<TRACKED_OBJECT>::<{org.apache.http.util.CharArrayBuffer=134984}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter1] 22 Apr 2021 18:22:02,090  INFO MetricSender - Sending REST request - URL [/controller/instance/192032/metricregistration]
+<request>
+<node-id>152597</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134984|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134984|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 22 Apr 2021 18:22:02,228  INFO MetricSender - REST Response Received - URL [/controller/instance/192032/metricregistration]
+<request>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134984|Shallow Size"	id="9981460"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134984|Instance Count"	id="9981459"/>
+</request>
+
+[AD Thread Pool-Global1] 22 Apr 2021 19:05:52,614  INFO ObjectRegistry - REST - Sending Binary request - URL [/controller/instance/192032/btregistration] 
+********BT Registration Data********
+<node-id>
+152597
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='com.sun.crypto.provider.GCTR', name=com.sun.crypto.provider.GCTR, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='com.sun.crypto.provider.GCTR'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 22 Apr 2021 19:05:52,617  INFO ObjectRegistry - REST
+Sending Binary payload Size : 1521 bytes
+[AD Thread Pool-Global1] 22 Apr 2021 19:05:52,795  INFO ObjectRegistry - REST - Reading Binary response - URL [null] - Size [955]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<TRACKED_OBJECT>::<{com.sun.crypto.provider.GCTR=134990}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter1] 22 Apr 2021 19:06:02,095  INFO MetricSender - Sending REST request - URL [/controller/instance/192032/metricregistration]
+<request>
+<node-id>152597</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134990|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134990|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 22 Apr 2021 19:06:02,248  INFO MetricSender - REST Response Received - URL [/controller/instance/192032/metricregistration]
+<request>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134990|Shallow Size"	id="9981684"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134990|Instance Count"	id="9981683"/>
+</request>
+
+[AD Thread Pool-Global0] 22 Apr 2021 19:22:52,615  INFO ObjectRegistry - REST - Sending Binary request - URL [/controller/instance/192032/btregistration] 
+********BT Registration Data********
+<node-id>
+152597
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='org.apache.http.message.BufferedHeader', name=org.apache.http.message.BufferedHeader, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.apache.http.message.BufferedHeader'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global0] 22 Apr 2021 19:22:52,617  INFO ObjectRegistry - REST
+Sending Binary payload Size : 1531 bytes
+[AD Thread Pool-Global0] 22 Apr 2021 19:22:52,733  INFO ObjectRegistry - REST - Reading Binary response - URL [null] - Size [965]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<TRACKED_OBJECT>::<{org.apache.http.message.BufferedHeader=134992}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter0] 22 Apr 2021 19:23:02,093  INFO MetricSender - Sending REST request - URL [/controller/instance/192032/metricregistration]
+<request>
+<node-id>152597</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134992|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:134992|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 22 Apr 2021 19:23:02,228  INFO MetricSender - REST Response Received - URL [/controller/instance/192032/metricregistration]
+<request>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134992|Shallow Size"	id="9981687"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:134992|Instance Count"	id="9981686"/>
+</request>
+
+[AD Thread Pool-Global1] 22 Apr 2021 19:32:52,617  INFO ObjectRegistry - REST - Sending Binary request - URL [/controller/instance/192032/btregistration] 
+********BT Registration Data********
+<node-id>
+152597
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='java.util.regex.Pattern', name=java.util.regex.Pattern, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='java.util.regex.Pattern'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 22 Apr 2021 19:32:52,623  INFO ObjectRegistry - REST
+Sending Binary payload Size : 1511 bytes
+[AD Thread Pool-Global1] 22 Apr 2021 19:32:52,758  INFO ObjectRegistry - REST - Reading Binary response - URL [null] - Size [950]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<TRACKED_OBJECT>::<{java.util.regex.Pattern=135009}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter0] 22 Apr 2021 19:33:02,092  INFO MetricSender - Sending REST request - URL [/controller/instance/192032/metricregistration]
+<request>
+<node-id>152597</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:135009|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:135009|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 22 Apr 2021 19:33:02,255  INFO MetricSender - REST Response Received - URL [/controller/instance/192032/metricregistration]
+<request>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:135009|Instance Count"	id="9981796"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:135009|Shallow Size"	id="9981797"/>
+</request>
+
+[AD Thread Pool-Global1] 22 Apr 2021 20:50:52,620  INFO ObjectRegistry - REST - Sending Binary request - URL [/controller/instance/192032/btregistration] 
+********BT Registration Data********
+<node-id>
+152597
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='org.apache.http.message.BasicHeader', name=org.apache.http.message.BasicHeader, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.apache.http.message.BasicHeader'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 22 Apr 2021 20:50:52,622  INFO ObjectRegistry - REST
+Sending Binary payload Size : 1528 bytes
+[AD Thread Pool-Global1] 22 Apr 2021 20:50:52,794  INFO ObjectRegistry - REST - Reading Binary response - URL [null] - Size [962]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<TRACKED_OBJECT>::<{org.apache.http.message.BasicHeader=135011}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter0] 22 Apr 2021 20:51:02,095  INFO MetricSender - Sending REST request - URL [/controller/instance/192032/metricregistration]
+<request>
+<node-id>152597</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:135011|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:135011|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 22 Apr 2021 20:51:02,223  INFO MetricSender - REST Response Received - URL [/controller/instance/192032/metricregistration]
+<request>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:135011|Instance Count"	id="9982151"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:135011|Shallow Size"	id="9982152"/>
+</request>
+
+[AD Thread Pool-Global1] 22 Apr 2021 21:17:52,617  INFO ObjectRegistry - REST - Sending Binary request - URL [/controller/instance/192032/btregistration] 
+********BT Registration Data********
+<node-id>
+152597
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='org.apache.http.message.BasicListHeaderIterator', name=org.apache.http.message.BasicListHeaderIterator, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.apache.http.message.BasicListHeaderIterator'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 22 Apr 2021 21:17:52,619  INFO ObjectRegistry - REST
+Sending Binary payload Size : 1540 bytes
+[AD Thread Pool-Global1] 22 Apr 2021 21:17:52,789  INFO ObjectRegistry - REST - Reading Binary response - URL [null] - Size [974]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<TRACKED_OBJECT>::<{org.apache.http.message.BasicListHeaderIterator=135013}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter1] 22 Apr 2021 21:18:02,097  INFO MetricSender - Sending REST request - URL [/controller/instance/192032/metricregistration]
+<request>
+<node-id>152597</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:135013|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:135013|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 22 Apr 2021 21:18:02,243  INFO MetricSender - REST Response Received - URL [/controller/instance/192032/metricregistration]
+<request>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:135013|Shallow Size"	id="9982200"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:135013|Instance Count"	id="9982199"/>
+</request>
+
+[AD Thread Pool-Global1] 22 Apr 2021 21:40:52,615  INFO ObjectRegistry - REST - Sending Binary request - URL [/controller/instance/192032/btregistration] 
+********BT Registration Data********
+<node-id>
+152597
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='org.apache.http.client.utils.URIBuilder', name=org.apache.http.client.utils.URIBuilder, diagnosticType=TRACKED_OBJECT, configEntities=null, summary='org.apache.http.client.utils.URIBuilder'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 22 Apr 2021 21:40:52,616  INFO ObjectRegistry - REST
+Sending Binary payload Size : 1532 bytes
+[AD Thread Pool-Global1] 22 Apr 2021 21:40:52,781  INFO ObjectRegistry - REST - Reading Binary response - URL [null] - Size [966]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<TRACKED_OBJECT>::<{org.apache.http.client.utils.URIBuilder=135014}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter1] 22 Apr 2021 21:41:02,095  INFO MetricSender - Sending REST request - URL [/controller/instance/192032/metricregistration]
+<request>
+<node-id>152597</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:135014|Instance Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|Tracked Object:135014|Shallow Size"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 22 Apr 2021 21:41:02,227  INFO MetricSender - REST Response Received - URL [/controller/instance/192032/metricregistration]
+<request>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:135014|Instance Count"	id="9982233"/>
+<metric	name="BTM|Application Diagnostic Data|Tracked Object:135014|Shallow Size"	id="9982234"/>
+</request>
+

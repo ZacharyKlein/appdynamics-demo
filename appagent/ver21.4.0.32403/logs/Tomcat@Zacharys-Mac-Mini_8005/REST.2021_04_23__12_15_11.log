@@ -1,0 +1,558 @@
+[AD Thread-Metric Reporter1] 23 Apr 2021 12:18:42,400  INFO MetricSender - Sending REST request - URL [/controller/instance/192032/metricregistration]
+<request>
+<node-id>153155</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Non-Heap|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Allocated-Objects (MB)"	time-rollup-type="AVERAGE"	hole-fill-type="NO_ZEROFILL_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Used %"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Abandoned BCI operations"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Bootstrap class lookups"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|GC Time Spent Per Min (ms)"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Threads|Current No. of Threads"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average Class File Read time(ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|RSD Total Count"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Number of Very Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Background Transformations"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|ClassMetaData Objects created"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|Agent Registration"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Promoted-Objects (MB)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Major Collection Time Spent Per Min (ms)"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Bootstrap class load misses"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Minor Collection Time Spent Per Min (ms)"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|RSD Trim Microseconds"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Class File Reads for MetaData"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Classes|Total Classes Loaded"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average Time to Create ClassMetaData (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Number of Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Non-Heap|Used %"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Class Loads"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|BT Registration"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average Transform Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Infrastructure Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Classes ReTransformed"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|Metric Reporting"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Bootstrap class refreshes"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average ClassMetaData Purge Operation Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Process CPU Burnt (ms/min)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Stall Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|LiveData (MB)"	time-rollup-type="AVERAGE"	hole-fill-type="NO_ZEROFILL_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Non-Heap|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Process CPU Usage %"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|RSD Trim Count"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Number of Slow End to End Messages"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Transformation Timeouts"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Classes Transformed"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Methods Transformed"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Failed ReTransform Requests"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Average End to End Latency (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|App Config Poll"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Non-Heap|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Freed-Objects (MB)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Bootstrap class loads"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|Metric Registration"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|ClassMetaData Purge Operations"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|End to End Messages per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Validation Failures"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average Non-Transform Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Normal Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Number of Minor Collections Per Min"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Classes|Current Loaded Class Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average Background Transform Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Number of Major Collections Per Min"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 23 Apr 2021 12:18:42,662  INFO MetricSender - REST Response Received - URL [/controller/instance/192032/metricregistration]
+<request>
+<metric	name="BTM|Application Summary|End to End Messages per Minute"	id="10035466"/>
+<metric	name="JVM|Garbage Collection|Major Collection Time Spent Per Min (ms)"	id="10035366"/>
+<metric	name="Agent|Agent Channels|RSD Trim Microseconds"	id="10035440"/>
+<metric	name="JVM|Memory:Heap|Committed (MB)"	id="10035367"/>
+<metric	name="Agent|Agent Channels|BT Registration"	id="10035435"/>
+<metric	name="Agent|BCI|Average Class File Read time(ms)"	id="10035443"/>
+<metric	name="BTM|Application Summary|Stall Count"	id="10035473"/>
+<metric	name="Agent|BCI|Bootstrap class loads"	id="10035450"/>
+<metric	name="BTM|Application Summary|Average Response Time (ms)"	id="10035464"/>
+<metric	name="Agent|BCI|Validation Failures"	id="10035462"/>
+<metric	name="Agent|BCI|Average Background Transform Time (ms)"	id="10035442"/>
+<metric	name="Agent|BCI|Abandoned BCI operations"	id="10035441"/>
+<metric	name="JVM|Garbage Collection|Number of Major Collections Per Min"	id="10035379"/>
+<metric	name="Agent|Agent Channels|RSD Total Count"	id="10035438"/>
+<metric	name="Agent|Agent Channels|Agent Registration"	id="10035433"/>
+<metric	name="Agent|BCI|Average Transform Time (ms)"	id="10035447"/>
+<metric	name="JVM|Garbage Collection|GC Time Spent Per Min (ms)"	id="10035386"/>
+<metric	name="JVM|Classes|Total Classes Loaded"	id="10035384"/>
+<metric	name="BTM|Application Summary|Errors per Minute"	id="10035467"/>
+<metric	name="Agent|BCI|Average Time to Create ClassMetaData (ms)"	id="10035446"/>
+<metric	name="Agent|Agent Channels|Metric Reporting"	id="10035437"/>
+<metric	name="BTM|Application Summary|Number of Slow Calls"	id="10035470"/>
+<metric	name="Agent|BCI|ClassMetaData Objects created"	id="10035455"/>
+<metric	name="JVM|Memory:Non-Heap|Committed (MB)"	id="10035369"/>
+<metric	name="Agent|BCI|Class Loads"	id="10035454"/>
+<metric	name="JVM|Garbage Collection|Allocated-Objects (MB)"	id="10035374"/>
+<metric	name="BTM|Application Summary|Normal Average Response Time (ms)"	id="10035469"/>
+<metric	name="JVM|Memory:Heap|Used %"	id="10035377"/>
+<metric	name="JVM|Process CPU Burnt (ms/min)"	id="10035376"/>
+<metric	name="Agent|BCI|Bootstrap class refreshes"	id="10035452"/>
+<metric	name="Agent|BCI|Class File Reads for MetaData"	id="10035453"/>
+<metric	name="JVM|Memory:Heap|Max Available (MB)"	id="10035381"/>
+<metric	name="Agent|BCI|Methods Transformed"	id="10035460"/>
+<metric	name="JVM|Threads|Current No. of Threads"	id="10035387"/>
+<metric	name="Agent|BCI|Bootstrap class load misses"	id="10035449"/>
+<metric	name="BTM|Application Summary|Infrastructure Errors per Minute"	id="10035468"/>
+<metric	name="JVM|Memory:Non-Heap|Current Usage (MB)"	id="10035368"/>
+<metric	name="Agent|Agent Channels|Metric Registration"	id="10035436"/>
+<metric	name="Agent|BCI|Average Non-Transform Time (ms)"	id="10035445"/>
+<metric	name="Agent|BCI|Failed ReTransform Requests"	id="10035459"/>
+<metric	name="JVM|Garbage Collection|Freed-Objects (MB)"	id="10035371"/>
+<metric	name="JVM|Garbage Collection|Minor Collection Time Spent Per Min (ms)"	id="10035373"/>
+<metric	name="Agent|Agent Channels|RSD Trim Count"	id="10035439"/>
+<metric	name="JVM|Classes|Current Loaded Class Count"	id="10035378"/>
+<metric	name="BTM|Application Summary|Calls per Minute"	id="10035465"/>
+<metric	name="JVM|Garbage Collection|Number of Minor Collections Per Min"	id="10035380"/>
+<metric	name="Agent|Agent Channels|App Config Poll"	id="10035434"/>
+<metric	name="BTM|Application Summary|Number of Very Slow Calls"	id="10035472"/>
+<metric	name="JVM|Garbage Collection|Promoted-Objects (MB)"	id="10035365"/>
+<metric	name="Agent|BCI|Transformation Timeouts"	id="10035461"/>
+<metric	name="BTM|Application Summary|Average End to End Latency (ms)"	id="10035463"/>
+<metric	name="JVM|Garbage Collection|LiveData (MB)"	id="10035370"/>
+<metric	name="Agent|BCI|ClassMetaData Purge Operations"	id="10035456"/>
+<metric	name="BTM|Application Summary|Number of Slow End to End Messages"	id="10035471"/>
+<metric	name="JVM|Process CPU Usage %"	id="10035375"/>
+<metric	name="Agent|BCI|Classes ReTransformed"	id="10035457"/>
+<metric	name="Agent|BCI|Classes Transformed"	id="10035458"/>
+<metric	name="Agent|BCI|Average ClassMetaData Purge Operation Time (ms)"	id="10035444"/>
+<metric	name="Agent|BCI|Bootstrap class lookups"	id="10035451"/>
+<metric	name="JVM|Memory:Heap|Current Usage (MB)"	id="10035382"/>
+<metric	name="JVM|Memory:Non-Heap|Max Available (MB)"	id="10035383"/>
+<metric	name="JVM|Memory:Non-Heap|Used %"	id="10035385"/>
+<metric	name="Agent|BCI|Background Transformations"	id="10035448"/>
+</request>
+
+[AD Thread-Metric Reporter1] 23 Apr 2021 12:18:42,763  INFO MetricSender - Sending REST request - URL [/controller/instance/192032/metricregistration]
+<request>
+<node-id>153155</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|Analytics|Message Send Errors"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|Analytics|Messages Sent"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|Analytics|Messages Dropped Since Input Queue Full"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Analytics|Sink Writers Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Analytics|Pending Messages In Queue"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Analytics|Collector Objects Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Analytics|Message Latency (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|Analytics|Messages Dropped Since Size Exceeded"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 23 Apr 2021 12:18:42,902  INFO MetricSender - REST Response Received - URL [/controller/instance/192032/metricregistration]
+<request>
+<metric	name="Agent|Analytics|Collector Objects Count"	id="10035474"/>
+<metric	name="Agent|Analytics|Messages Dropped Since Input Queue Full"	id="10035477"/>
+<metric	name="Agent|Analytics|Sink Writers Count"	id="10035481"/>
+<metric	name="Agent|Analytics|Message Latency (ms)"	id="10035475"/>
+<metric	name="Agent|Analytics|Pending Messages In Queue"	id="10035480"/>
+<metric	name="Agent|Analytics|Messages Dropped Since Size Exceeded"	id="10035478"/>
+<metric	name="Agent|Analytics|Message Send Errors"	id="10035476"/>
+<metric	name="Agent|Analytics|Messages Sent"	id="10035479"/>
+</request>
+
+[AD Thread-Metric Reporter1] 23 Apr 2021 12:20:02,373  INFO MetricSender - Sending REST request - URL [/controller/instance/192032/metricregistration]
+<request>
+<node-id>153155</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;profiled nmethods&apos;|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-profiled nmethods&apos;|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Metaspace|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Eden Space|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Eden Space|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-profiled nmethods&apos;|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-nmethods&apos;|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-nmethods&apos;|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;profiled nmethods&apos;|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Old Gen|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Metaspace|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Old Gen|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-profiled nmethods&apos;|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-nmethods&apos;|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Old Gen|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;profiled nmethods&apos;|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Survivor Space|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:G1 Survivor Space|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 23 Apr 2021 12:20:02,621  INFO MetricSender - REST Response Received - URL [/controller/instance/192032/metricregistration]
+<request>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;profiled nmethods&apos;|Current Usage (MB)"	id="10035506"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;profiled nmethods&apos;|Max Available (MB)"	id="10035507"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Survivor Space|Current Usage (MB)"	id="10035517"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Metaspace|Committed (MB)"	id="10035518"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Eden Space|Current Usage (MB)"	id="10035512"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Old Gen|Max Available (MB)"	id="10035515"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Committed (MB)"	id="10035508"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-profiled nmethods&apos;|Max Available (MB)"	id="10035504"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Survivor Space|Committed (MB)"	id="10035516"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Old Gen|Current Usage (MB)"	id="10035514"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Eden Space|Committed (MB)"	id="10035511"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-profiled nmethods&apos;|Committed (MB)"	id="10035502"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:G1 Old Gen|Committed (MB)"	id="10035513"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-nmethods&apos;|Committed (MB)"	id="10035499"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Metaspace|Current Usage (MB)"	id="10035519"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-profiled nmethods&apos;|Current Usage (MB)"	id="10035503"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-nmethods&apos;|Max Available (MB)"	id="10035501"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Max Available (MB)"	id="10035510"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Current Usage (MB)"	id="10035509"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;profiled nmethods&apos;|Committed (MB)"	id="10035505"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:CodeHeap &apos;non-nmethods&apos;|Current Usage (MB)"	id="10035500"/>
+</request>
+
+[AD Thread-Metric Reporter0] 23 Apr 2021 12:21:02,371  INFO MetricSender - Sending REST request - URL [/controller/instance/192032/metricregistration]
+<request>
+<node-id>153155</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:96954|JMX|Sessions|processingTime"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:96954|JMX|Sessions|activeSessions"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:96954|JMX|Sessions|rejectedSessions"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Server|Component:96954|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Request Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:96954|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Current Threads In Pool"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:96954|JMX|Sessions|sessionAverageAliveTime"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:96954|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Maximum Threads"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:96954|JMX|Sessions|sessionCounter"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:96954|JMX|Sessions|maxActive"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Server|Component:96954|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Error Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:96954|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Busy Threads"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:96954|JMX|Sessions|expiredSessions"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:96954|JMX|Sessions|sessionMaxAliveTime"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 23 Apr 2021 12:21:02,609  INFO MetricSender - REST Response Received - URL [/controller/instance/192032/metricregistration]
+<request>
+<metric	name="Server|Component:96954|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Request Count"	id="10035532"/>
+<metric	name="Server|Component:96954|JMX|Sessions|maxActive"	id="10035522"/>
+<metric	name="Server|Component:96954|JMX|Sessions|rejectedSessions"	id="10035524"/>
+<metric	name="Server|Component:96954|JMX|Sessions|sessionAverageAliveTime"	id="10035525"/>
+<metric	name="Server|Component:96954|JMX|Sessions|sessionMaxAliveTime"	id="10035527"/>
+<metric	name="Server|Component:96954|JMX|Sessions|processingTime"	id="10035523"/>
+<metric	name="Server|Component:96954|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Error Count"	id="10035530"/>
+<metric	name="Server|Component:96954|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Busy Threads"	id="10035528"/>
+<metric	name="Server|Component:96954|JMX|Sessions|activeSessions"	id="10035520"/>
+<metric	name="Server|Component:96954|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Maximum Threads"	id="10035531"/>
+<metric	name="Server|Component:96954|JMX|Web Container Runtime:&quot;http-nio-8080&quot;|Current Threads In Pool"	id="10035529"/>
+<metric	name="Server|Component:96954|JMX|Sessions|sessionCounter"	id="10035526"/>
+<metric	name="Server|Component:96954|JMX|Sessions|expiredSessions"	id="10035521"/>
+</request>
+
+[AD Thread Pool-Global1] 23 Apr 2021 12:22:12,886  INFO BTRegistrationChannel - REST - Setting BTs to register : [BusinessTransaction{id=0, name=null, entryPointType=SERVLET, entryPointTypeString=SERVLET, internalName=/demo-0.1/demo, componentId=96954 ,applicationId=0, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=0, enabledForEUM=false, eumAutoEnablePossible=null}]
+[AD Thread Pool-Global1] 23 Apr 2021 12:22:12,886  INFO BTRegistrationChannel - REST - Sending Binary request - URL [/controller/instance/192032/btregistration] 
+********BT Registration Data********
+<business-transactions>
+Size : 1
+<BusinessTransaction{id=0, name=null, entryPointType=SERVLET, entryPointTypeString=SERVLET, internalName=/demo-0.1/demo, componentId=96954 ,applicationId=0, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=0, enabledForEUM=false, eumAutoEnablePossible=null}>
+</business-transactions>
+<node-id>
+153155
+</node-id>
+<account-key>
+****
+</account-key>
+
+[AD Thread Pool-Global1] 23 Apr 2021 12:22:12,895  INFO BTRegistrationChannel - REST
+Sending Binary payload Size : 2633 bytes
+[AD Thread Pool-Global0] 23 Apr 2021 12:22:12,975  INFO ServiceEndPointADDRegistrar - REST - Sending Binary request - URL [/controller/instance/192032/btregistration] 
+********BT Registration Data********
+<node-id>
+153155
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='/demo-0.1/demo_SERVLET', name=/demo-0.1/demo, diagnosticType=SERVICE_ENDPOINT, configEntities=null, summary='/demo-0.1/demo'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 23 Apr 2021 12:22:13,283  INFO BTRegistrationChannel - REST - Reading Binary response - URL [null] - Size [3472]
+********BT Registration Data********
+<business-transactions>
+Size : 1
+<BusinessTransaction{id=135504, name=/demo-0.1/demo, entryPointType=SERVLET, entryPointTypeString=SERVLET, internalName=/demo-0.1/demo, componentId=96954 ,applicationId=56977, applicationComponentName=null, matchCriteria=MatchCriteria{matchRule=null, namingConfig=DiscoveryNamingConfig{namingSchemeType='uri', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]}}, createdOn=null, background=false, analyticsDataCollectionEnabled=false, configuration=null, createdNodeId=153155, enabledForEUM=false, eumAutoEnablePossible=null}>
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+Successfully registered business transactions
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 0
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global1] 23 Apr 2021 12:22:13,671  INFO AsyncCorrelationADDRepository - REST - Sending Binary request - URL [/controller/instance/192032/btregistration] 
+********BT Registration Data********
+<node-id>
+153155
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='PerformCleanupTask', name=PerformCleanupTask, diagnosticType=THREAD_TASK, configEntities=null, summary='PerformCleanupTask'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 23 Apr 2021 12:22:13,673  INFO AsyncCorrelationADDRepository - REST
+Sending Binary payload Size : 1300 bytes
+[AD Thread Pool-Global1] 23 Apr 2021 12:22:13,819  INFO AsyncCorrelationADDRepository - REST - Reading Binary response - URL [null] - Size [942]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<THREAD_TASK>::<{PerformCleanupTask=135852}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 23 Apr 2021 12:22:14,045  INFO ServiceEndPointADDRegistrar - REST
+Sending Binary payload Size : 1525 bytes
+[AD Thread Pool-Global0] 23 Apr 2021 12:22:14,355  INFO ServiceEndPointADDRegistrar - REST - Reading Binary response - URL [null] - Size [951]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 0
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<SERVICE_ENDPOINT>::<{/demo-0.1/demo_SERVLET=135853}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 23 Apr 2021 12:22:33,291  INFO BTRegistrationChannel - REST - Sending Binary request - URL [/controller/instance/192032/btregistration] 
+********BT Registration Data********
+<node-id>
+153155
+</node-id>
+<account-key>
+****
+</account-key>
+<unregistered-backends>
+Size : 1
+<UnresolvedBackendCallInfo [id=0, resolutionInfo=NodeResolutionInfo[exitPointType=JDBC, exitPointSubtype=JDBC, properties=[Name:VENDOR, Value:H2, Name:URL, Value:jdbc:h2:./prodDb, Name:MAJOR_VERSION, Value:1.4.199 (2019-03-13)], doNotResolve=false, doNotResolveReason=null], metaInfo=[], applicationId=0, createdOn=0, displayName=H2-1.4.199 (2019-03-13), visualizationProperties=null, applicationComponentNodeId=0, applicationComponentId=0]>
+</unregistered-backends>
+
+[AD Thread Pool-Global0] 23 Apr 2021 12:22:33,296  INFO BTRegistrationChannel - REST
+Sending Binary payload Size : 1525 bytes
+[AD Thread Pool-Global0] 23 Apr 2021 12:22:33,404  INFO BTRegistrationChannel - REST - Reading Binary response - URL [null] - Size [2009]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 1
+<11925>::<NodeResolutionInfo[exitPointType=JDBC, exitPointSubtype=JDBC, properties=[Name:MAJOR_VERSION, Value:1.4.199 (2019-03-13), Name:URL, Value:jdbc:h2:./prodDb, Name:VENDOR, Value:H2], doNotResolve=false, doNotResolveReason=null]>
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 1
+<UnresolvedBackendCallInfo [id=11925, resolutionInfo=NodeResolutionInfo[exitPointType=JDBC, exitPointSubtype=JDBC, properties=[Name:MAJOR_VERSION, Value:1.4.199 (2019-03-13), Name:URL, Value:jdbc:h2:./prodDb, Name:VENDOR, Value:H2], doNotResolve=false, doNotResolveReason=null], metaInfo=[], applicationId=56977, createdOn=0, displayName=H2-1.4.199 (2019-03-13), visualizationProperties=null, applicationComponentNodeId=0, applicationComponentId=0]>
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 0
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+
+[AD Thread-Metric Reporter1] 23 Apr 2021 12:23:02,376  INFO MetricSender - Sending REST request - URL [/controller/instance/192032/metricregistration]
+<request>
+<node-id>153155</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:135504|Component:96954|Stall Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Component:96954|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:96954|Stall Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:135504|Component:96954|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:135504|Component:96954|Number of Very Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:96954|Number of Very Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:135504|Component:96954|Normal Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:135504|Component:96954|Number of Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:135504|Component:96954|Exit Call:JDBC|To:{[UNRESOLVED][11925]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:96954|Infrastructure Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:96954|Exit Call:JDBC|To:{[UNRESOLVED][11925]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][11925]}|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Component:96954|Average Async Processing Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:96954|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:135504|Component:96954|Exit Call:JDBC|To:{[UNRESOLVED][11925]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:135504|Component:96954|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:135504|Component:96954|Average Async Processing Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:135504|Component:96954|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:96954|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Component:96954|Exit Call:JDBC|To:{[UNRESOLVED][11925]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Backends|Component:{[UNRESOLVED][11925]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:96954|Exit Call:JDBC|To:{[UNRESOLVED][11925]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Backends|Component:{[UNRESOLVED][11925]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:135504|Component:96954|Exit Call:JDBC|To:{[UNRESOLVED][11925]}|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:96954|Number of Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 23 Apr 2021 12:23:02,646  INFO MetricSender - REST Response Received - URL [/controller/instance/192032/metricregistration]
+<request>
+<metric	name="BTM|Application Summary|Component:96954|Number of Very Slow Calls"	id="10036262"/>
+<metric	name="BTM|BTs|BT:135504|Component:96954|Average Async Processing Time (ms)"	id="10036264"/>
+<metric	name="BTM|BTs|BT:135504|Component:96954|Number of Very Slow Calls"	id="10036011"/>
+<metric	name="BTM|Application Summary|Component:96954|Exit Call:JDBC|To:{[UNRESOLVED][11925]}|Average Response Time (ms)"	id="10036257"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][11925]}|Average Response Time (ms)"	id="10036269"/>
+<metric	name="BTM|BTs|BT:135504|Component:96954|Exit Call:JDBC|To:{[UNRESOLVED][11925]}|Errors per Minute"	id="10036267"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][11925]}|Calls per Minute"	id="10036270"/>
+<metric	name="BTM|Application Summary|Component:96954|Calls per Minute"	id="10036255"/>
+<metric	name="BTM|BTs|BT:135504|Component:96954|Calls per Minute"	id="10036008"/>
+<metric	name="BTM|BTs|BT:135504|Component:96954|Normal Average Response Time (ms)"	id="10036268"/>
+<metric	name="BTM|BTs|BT:135504|Component:96954|Average Response Time (ms)"	id="10036007"/>
+<metric	name="BTM|Application Summary|Component:96954|Exit Call:JDBC|To:{[UNRESOLVED][11925]}|Calls per Minute"	id="10036258"/>
+<metric	name="BTM|Application Summary|Component:96954|Infrastructure Errors per Minute"	id="10036260"/>
+<metric	name="BTM|Application Summary|Component:96954|Exit Call:JDBC|To:{[UNRESOLVED][11925]}|Errors per Minute"	id="10036259"/>
+<metric	name="BTM|BTs|BT:135504|Component:96954|Number of Slow Calls"	id="10036010"/>
+<metric	name="BTM|BTs|BT:135504|Component:96954|Errors per Minute"	id="10036009"/>
+<metric	name="BTM|Application Summary|Component:96954|Number of Slow Calls"	id="10036261"/>
+<metric	name="BTM|BTs|BT:135504|Component:96954|Exit Call:JDBC|To:{[UNRESOLVED][11925]}|Average Response Time (ms)"	id="10036265"/>
+<metric	name="BTM|BTs|BT:135504|Component:96954|Stall Count"	id="10036012"/>
+<metric	name="BTM|Application Summary|Component:96954|Stall Count"	id="10036263"/>
+<metric	name="BTM|Application Summary|Component:96954|Average Response Time (ms)"	id="10036254"/>
+<metric	name="BTM|Backends|Component:{[UNRESOLVED][11925]}|Errors per Minute"	id="10036271"/>
+<metric	name="BTM|Application Summary|Component:96954|Average Async Processing Time (ms)"	id="10036253"/>
+<metric	name="BTM|BTs|BT:135504|Component:96954|Exit Call:JDBC|To:{[UNRESOLVED][11925]}|Calls per Minute"	id="10036266"/>
+<metric	name="BTM|Application Summary|Component:96954|Errors per Minute"	id="10036256"/>
+</request>
+
+[AD Thread-Metric Reporter0] 23 Apr 2021 12:24:02,368  INFO MetricSender - Sending REST request - URL [/controller/instance/192032/metricregistration]
+<request>
+<node-id>153155</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:135504|Component:96954|Average Request Size"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 23 Apr 2021 12:24:02,484  INFO MetricSender - REST Response Received - URL [/controller/instance/192032/metricregistration]
+<request>
+<metric	name="BTM|BTs|BT:135504|Component:96954|Average Request Size"	id="10036632"/>
+</request>
+
+[AD Thread-Metric Reporter1] 23 Apr 2021 12:38:02,368  INFO MetricSender - Sending REST request - URL [/controller/instance/192032/metricregistration]
+<request>
+<node-id>153155</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Diagnostic Data|SEP:135853|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Diagnostic Data|SEP:135853|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Diagnostic Data|SEP:135853|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:135504|Component:96954|95th Percentile Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 23 Apr 2021 12:38:02,522  INFO MetricSender - REST Response Received - URL [/controller/instance/192032/metricregistration]
+<request>
+<metric	name="BTM|Application Diagnostic Data|SEP:135853|Errors per Minute"	id="10036765"/>
+<metric	name="BTM|Application Diagnostic Data|SEP:135853|Calls per Minute"	id="10036764"/>
+<metric	name="BTM|Application Diagnostic Data|SEP:135853|Average Response Time (ms)"	id="10036763"/>
+<metric	name="BTM|BTs|BT:135504|Component:96954|95th Percentile Response Time (ms)"	id="10036766"/>
+</request>
+
+[AD Thread-Metric Reporter1] 23 Apr 2021 13:13:02,371  INFO MetricSender - Sending REST request - URL [/controller/instance/192032/metricregistration]
+<request>
+<node-id>153155</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|RSD Upload"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 23 Apr 2021 13:13:02,535  INFO MetricSender - REST Response Received - URL [/controller/instance/192032/metricregistration]
+<request>
+<metric	name="Agent|Agent Channels|RSD Upload"	id="10036992"/>
+</request>
+
